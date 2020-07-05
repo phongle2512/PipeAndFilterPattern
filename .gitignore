@@ -1,0 +1,28 @@
+dist/
+# OSX
+#
+*.DS_Store
+
+### Generated Sources / Builds ###
+build/
+out/
+transaction-logs/
+.gradle/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.vscode
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# Docz
+.docz
+
+**/.DS_Store
+bin/
